@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="?attr/actionBarSize"
+    tools:context="example.saadat.com.ewlmerge.BottomMenuActivities.FragmentCart">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <example.saadat.com.ewlmerge.customfonts.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shopping_cart_title"
+        android:textSize="25sp"
+        android:shadowColor="#262626"
+        android:textColor="#af23045b"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="10dp"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyc_cart"
+        android:padding="3dp"
+        android:layout_marginTop="?android:actionBarSize"
+        android:layout_marginBottom="?actionBarSize"
+        android:scrollbars="vertical"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/check_out"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:id="@+id/chkOutNpay"/>
+
+</FrameLayout>

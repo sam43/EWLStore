@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#003050</color>
+    <color name="colorPrimaryDark">#023564</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#d051acd2</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#f64c73</color>
+    <color name="bg_screen2">#20d2bb</color>
+    <color name="bg_screen3">#3395ff</color>
+    <color name="bg_screen4">#c873f4</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+    </array>
+
+    <color name="black">#000000</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="primary">#82ff0e72</color>
+
+    <color name="duskYellow">#707070</color>
+    <color name="lightGrey">#f2b140</color>
+
+
+    <color name="colorBlack">#545454</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+
+    <color name="colorWhite1">#F7F7F7</color>
+
+    <!--  Actionbar colour     -->
+    <color name="coloraction">#4e95b6</color>
+
+    <!--  Text colour     -->
+    <color name="colortext">#eeeeee</color>
+
+    <!--  button colour     -->
+    <color name="color_button">#4e95b6</color>
+
+    <color name="color_layout">#f0f1f5</color>
+
+    <color name="viewBg">#f1f5f8</color>
+
+    <color name="album_title">#4c4c4c</color>
+
+    <!-- for product list GridView -->
+
+    <color name="colorSub">#b0afaf</color>
+    <color name="colorTex">#585858</color>
+    <color name="colordevider">#64dad8d8</color>
+    <color name="colorblue">#4c71f5</color>
+
+    <!--  menutopbar colour     -->
+    <color name="color_menutop">#39464f</color>
+
+
+    <color name="color_texmenutop">#989898</color>
+
+    <!--  menubutton colour     -->
+    <color name="color_menubutton">#2b3639</color>
+
+    <!--  menufount colour     -->
+    <color name="color_menufont">#555555</color>
+
+
+    <!--  color_cartimg_background     -->
+    <color name="color_cartimg_back">#eeeeee</color>
+
+    <color name="listview_divider">#00000000</color>
+    <color name="listview_group_text_color_before">#313131</color>
+    <color name="listview_group_image_color_before">#d7d7d7</color>
+    <color name="listview_group_arrow_image_color_before">#fdcbcb</color>
+    <color name="listview_group_parent_color_before">#ffffff</color>
+
+    <!-- listview after expanded -->
+    <color name="listview_group_text_color_after">#482764</color>
+    <color name="listview_group_image_color_after">#412981</color>
+    <color name="listview_group_arrow_image_color_after">#0f3048</color>
+    <color name="listview_group_parent_color_after">#ebebeb</color>
+
+    <color name="teal_050">#e0f2f1</color> <!-- Use with black text -->
+    <color name="teal_100">#b2dfdb</color> <!-- Use with black text -->
+    <color name="teal_200">#80cbc4</color> <!-- Use with black text -->
+    <color name="teal_300">#4db6ac</color> <!-- Use with black text -->
+    <color name="teal_400">#26a69a</color> <!-- Use with black text -->
+    <color name="teal_500">#009688</color> <!-- Use with white text -->
+    <color name="teal_600">#00897b</color> <!-- Use with white text -->
+    <color name="teal_700">#00796b</color> <!-- Use with white text -->
+    <color name="teal_800">#00695c</color> <!-- Use with white text -->
+    <color name="teal_900">#004d40</color> <!-- Use with white text -->
+    <color name="teal_a100">#a7ffeb</color> <!-- Use with black text -->
+    <color name="teal_a200">#64ffda</color> <!-- Use with black text -->
+    <color name="teal_a400">#1de9b6</color> <!-- Use with black text -->
+    <color name="teal_a700">#00bfa5</color> <!-- Use with black text -->
+
+
+    <color name="white">#ffffff</color>
+    <color name="indigo500">#d9d8dd</color>
+    <color name="divider">#1f000000</color>
+    <color name="accent">#ff2d6f</color>
+
+</resources>

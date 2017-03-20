@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/replace"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:nestedScrollingEnabled="false">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:text="Hot sells"
+                android:textColor="@color/teal_900"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/more1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="-40dp"
+                android:text="more"
+                android:textColor="#FFF"
+                android:theme="@style/MyButton" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/hotsell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fitsSystemWindows="true"
+                android:scrollbars="vertical" />
+
+            <FrameLayout
+                android:id="@+id/f1"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="400dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bann1"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp" />
+            </FrameLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:text="New Arrival"
+                android:textColor="@color/teal_900"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/more2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="-40dp"
+                android:text="more"
+                android:textColor="#FFF"
+                android:theme="@style/MyButton" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/offers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fitsSystemWindows="true"
+                android:scrollbars="vertical" />
+
+            <FrameLayout
+                android:id="@+id/f2"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="400dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bann2"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp" />
+            </FrameLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:text="Editor's Choice"
+                android:textColor="@color/teal_900"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/more3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="-40dp"
+                android:text="more"
+                android:textColor="#FFF"
+                android:theme="@style/MyButton" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/choice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fitsSystemWindows="true"
+                android:scrollbars="vertical" />
+
+            <FrameLayout
+                android:id="@+id/f3"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="400dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bann3"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp" />
+            </FrameLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:text="Most Viewed"
+                android:textColor="@color/teal_900"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/more4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="-40dp"
+                android:text="more"
+                android:textColor="#FFF"
+                android:theme="@style/MyButton" />
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/mostview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fitsSystemWindows="true"
+                android:scrollbars="vertical" />
+
+            <FrameLayout
+                android:id="@+id/f4"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="400dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bann4"
+                    android:paddingBottom="5dp"
+                    android:paddingEnd="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp" />
+            </FrameLayout>
+
+            <android.support.v7.widget.CardView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/newsletter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                app:cardCornerRadius="5dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:clickable="true">
+
+                    <Button
+                        android:id="@+id/subscribe"
+                        style="@style/MyButton"
+                        android:layout_width="160dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/email"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginTop="15dp"
+                        android:drawableEnd="@drawable/sendr"
+                        android:fontFamily="sans-serif"
+                        android:padding="15dp"
+                        android:text="@string/subscribe"
+                        android:textSize="15sp"
+                        android:textStyle="normal|bold" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_toStartOf="@+id/subscribe"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/newsletter"
+                        android:textSize="24sp"
+                        android:textStyle="normal|bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView3"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="25dp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:text="@string/descriptions"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView2"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/border"
+                        android:ems="20"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:textColorLink="?attr/editTextColor"
+                        android:textCursorDrawable="@drawable/cursor_color"
+                        android:textStyle="normal|italic" />
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/bann5"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

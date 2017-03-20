@@ -1,0 +1,332 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:tileMode="repeat"
+    android:background="#fff" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="#93dfecf4" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:id="@+id/ll_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/rl_head"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_label_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:text="CHECKOUT &amp; SHIPPING"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textColor="#288000"
+                    android:textSize="22sp" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_crumbs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="10dp" >
+
+
+                <Button
+                    android:id="@+id/tv_crumbs_checkout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Checkout"
+                    android:layout_gravity="start"
+                    android:textColor="#006102"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/tv_crumbs_confirm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:textSize="12sp"/>
+
+                <Button
+                    android:id="@+id/tv_crumbs_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:text="Payment"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_label_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="Name"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#6bd6d6d6"
+                android:padding="5dp"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_label_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="Email"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#6bd6d6d6"
+                android:padding="5dp"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_label_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="Phone"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#6bd6d6d6"
+                android:padding="5dp"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_label_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="Address"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#6bd6d6d6"
+                android:padding="5dp"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_label_country"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="Country"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_country"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#6bd6d6d6"
+                android:padding="5dp"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_label_state"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="State"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_state"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#6bd6d6d6"
+                android:padding="5dp"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_label_city"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="City"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#cf030303"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_city"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#6bd6d6d6"
+                android:padding="5dp"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_label_pincode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:text="Pincode"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="#cf030303"
+                android:textSize="17sp" />
+
+            <EditText
+                android:id="@+id/edit_pincode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="#6bd6d6d6"
+                android:padding="5dp"
+                android:textColor="#132233"
+                android:textSize="17sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:background="#53e6e6e6"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp">
+
+
+                <Button
+                    android:id="@+id/but_next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:text="PROCEED  "
+                    android:drawablePadding="10dp"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:drawableEnd="@drawable/right_arrow"
+                    android:textColor="#d42e9100"
+                    android:textSize="18sp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="#a5414141"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="15dp"
+                    android:id="@+id/view" />
+
+                <Button
+                    android:id="@+id/but_prev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="10dp"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                    android:drawableStart="@drawable/left_arrow"
+                    android:text="  BACK"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:textColor="#d4e10000"
+                    android:textSize="18sp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
